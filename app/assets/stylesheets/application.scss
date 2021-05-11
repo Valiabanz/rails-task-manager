@@ -1,0 +1,52 @@
+@import "bootstrap/scss/bootstrap";
+
+
+ body {
+  background: rgb(240,240,240);
+  color: rgb(20,20,20);
+  font-family: 'Open sans', sans-serif;
+ }
+h1 {
+  font-family: 'Montserrat' , sans-serif ;
+  font-size: 50px;
+  color: red;
+}
+
+
+/* Custom design*/
+#banner  {
+  background-image: url(https://picsum.photos/id/1025/1300/600);
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+#banner h1 {
+  color : white;
+}
+#banner p {
+  color : white;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+.container{
+  text-align: center;
+}
+
+ul{
+  list-style-type : none;
+  padding-left: 0px;
+}
+
+li{
+  font-weight: bold;
+  text-color: #f8f9fa;
+  text-decoration: none;
+  background-color: #f8f9fa6e;
+}
+
+a {
+    color: #f8f9fa;
+    text-decoration: none;
+    background-color: #f8f9fa6e;
+}
